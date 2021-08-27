@@ -1,0 +1,27 @@
+CREATE DATABASE CATALOGO
+GO
+
+USE CATALOGO
+GO
+
+CREATE TABLE GENERO (
+
+	idGenero TINYINT PRIMARY KEY IDENTITY(1,1),
+	nomeGenero VARCHAR(20) NOT NULL
+
+);
+GO
+
+CREATE TABLE FILME (
+
+	idFilme SMALLINT PRIMARY KEY IDENTITY(1,1),
+	idGenero TINYINT FOREIGN KEY REFERENCES GENERO(idGenero),
+	tituloFilme VARCHAR(50) NOT NULL
+
+);
+GO
+
+-- Assim dá para comentar
+/*
+e assim também
+*/
