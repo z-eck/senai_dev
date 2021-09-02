@@ -44,6 +44,12 @@ ALTER TABLE FILME
 ADD tituloFilme VARCHAR(50) NOT NULL UNIQUE;
 */
 
+-- Alterar uma informação de uma tabela:
+/*
+ALTER TABLE FILME
+ALTER COLUMN tituloFilme VARCHAR(50) NOT NULL UNIQUE;
+*/
+
 -- Renomear um Banco de Dados:
 -- 1º Forma, é ir no pesquisador do banco, e clicar com botão direito e renomear.
 -- a 2º Forma, por código (claro), é assim:
