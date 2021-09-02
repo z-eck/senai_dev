@@ -4,7 +4,7 @@ USE RENTAL_T
 GO
 
 INSERT INTO CLIENTE (nomeCliente, sobrenomeCliente, cpfCliente, cnhCliente)
-VALUES ('Enzo', 'De Paula', '123.456.789-00',1234567890), ('Valentina', 'Martins', '888.888.888-88',8888888888), ('João', 'Almeida', '009.876.543-21',1098765432), ('Maria', 'Anacleto', '131.313.131-31',1313131313);
+VALUES ('Enzo', 'De Paula', '123.456.789-00',1234567890), ('Valentina', 'Martins', '888.888.888-88',8888888888), ('João', 'Almeida', '009.876.543-21',1098765432), ('Maria', 'Oliveira', '131.313.131-31',1313131313);
 GO
 
 INSERT INTO MARCA (nomeMarca)
