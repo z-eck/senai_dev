@@ -75,12 +75,16 @@ ALTER DATABASE CATALOGO_DE_FILMES MODIFY FILE (
 );
 GO
 
+-- No meu caso, estava em C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA\, se der erro, vai em Win + E (Explorador de Arquivos) e vai procurando desde o C:, até o "DATA" no seu computador, para poder alterar com sucesso.
+
 ALTER DATABASE CATALOGO_DE_FILMES MODIFY FILE (
 	NAME = CATALOGO_T_log
 	,NEWNAME = CATALOGO_DE_FILMES_log
 	,FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL14.MSSQLSERVER\MSSQL\DATA\CATALOGO_DE_FILMES_log.ldf'
 );
 GO
+
+-- Repito, no meu caso estava em C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA, se der erro, vai em Win + E (Explorador de Arquivos) e vai procurando desde o C:, até o "DATA" no seu computador, para poder alterar com sucesso
 
 -- Peguei essa explicação deste site: https://www.brunodba.com/2019/06/20/renomeando-um-banco-de-dados/ :D
 
