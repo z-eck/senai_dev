@@ -1,0 +1,20 @@
+criar um sistema web e aplicativo, desde a base por banco de dados, até o front-end
+
+site:
+
+escopo no Figma (ainda não foi feito... Algum dia será)
+arquivo.html
+arquivo.css
+arquivo.js
+
+back-end (não definido qual linguagem ainda utilizar, mas no momento C# com .net)
+
+banco de dados
+SQL com entidades:
+jogos, data inicio de apostas, data final de apostas, data da partida, jogadores,
+apostadores, equipes, times, clube de fidelidade de um time espefícico, moeda,
+tabela de jogos passados, tabela de jogos futuros, email de jogadores,
+email de apostadores...
+
+ideias futuras para adições:
+adição de apostar para banimentos (ex.: quais campeões serão banidos em uma partida oficial)
