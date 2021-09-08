@@ -40,7 +40,7 @@ WHERE idCliente = 2
 UPDATE CLIENTE SET sobrenomeCliente = 'Almeida' 
 WHERE idCliente = 3
 
-UPDATE CLIENTE SET sobrenomeCliente = 'Anacleto' 
+UPDATE CLIENTE SET sobrenomeCliente = 'Oliveira' 
 WHERE idCliente = 4
 
 SELECT * FROM CLIENTE
